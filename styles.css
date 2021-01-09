@@ -88,10 +88,11 @@ header .logo
 {
     position: relative;
     z-index: 15;
-    display: flex;
+    display: inline-flexbox;
     padding: 20px;
-    /* justify-content: right;
-    align-items: right; */
+    object-fit: contain;
+    justify-content: right;
+    align-items: right;
 }
 .text
 {
