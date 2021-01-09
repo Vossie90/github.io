@@ -93,6 +93,8 @@ header .logo
     object-fit: contain;
     justify-content: right;
     align-items: right;
+    width: 500px;
+    height: auto;
 }
 .text
 {
