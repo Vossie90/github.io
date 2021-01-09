@@ -84,6 +84,15 @@ header .logo
     background: orange;
     mix-blend-mode: overlay;
 }
+.pics img
+{
+    position: relative;
+    z-index: 15;
+    /* display: flex; */
+    padding: 40px;
+    /* justify-content: right;
+    align-items: right; */
+}
 .text
 {
     position: relative;
