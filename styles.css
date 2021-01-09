@@ -88,8 +88,8 @@ header .logo
 {
     position: relative;
     z-index: 15;
-    /* display: flex; */
-    padding: 40px;
+    display: flex;
+    padding: 20px;
     /* justify-content: right;
     align-items: right; */
 }
