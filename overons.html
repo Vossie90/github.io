@@ -1,0 +1,64 @@
+overons.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>t' Vossie</title>
+</head>
+    <body>
+        <section class="showcase">
+            <header>
+            <h2 class="logo">t' Vossie</h2>
+            <div class="toggle"></div>
+            </header>
+            <img src="backgroundoverons.jpg"></img>
+            <div class="overlay"></div>
+            <div class="text">
+            <h2>'t</h2> 
+            <h3>Vossie</h3>
+            <p>Cafe 't Vossie is a traditional dutch pub located in Amsterdam-West.
+             Daniel Vosveld Started Cafe 't Vossie in early 2012. his mission is to keep the old brown dutch bar concept alive for the locals in Amsterdam
+
+             We have a beautiful beautiful terrace in the neighbourhood of the baarsjes.
+             
+             
+            
+            
+             you can watch: Football, American football, Darts, Rugby
+             you can play: Pool, Darts and various board and cardgames.
+             
+             Feel free to come by and visit soon!
+             p.s. before you do, check our Menu. we probably have something interesting you want to try! 
+            
+                
+                
+                
+            </p>
+            <a href="#">Menu</a>
+            </div>
+            <ul class="social">
+            <li><a href="#"><img src="./twitter.png"></a></li>
+            <li><a href="#"><img src="./linkedin.png"></a></li>
+            </ul>
+        </section>
+        <div class="menu">
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <!-- <li><a href="#">Blog</a></li> -->
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+      <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+            })
+      </script>
+</body>
+</html>
