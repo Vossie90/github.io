@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>t' Vossie</title>
+</head>
+    <body>
+        <section class="showcase">
+            <header>
+                <a href="index.html" style="text-decoration: none;"><h2 class="logo">t' Vossie</h2></a>
+                <div class="toggle"></div>
+            </header>
+            <video src="./beer2_compressed.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+            <h2>Het</h2> 
+            <h3>Vossie</h3>
+            <p><h1>Café 't Vossie
+            <ul>   
+                <li>Adress: Antillenstraat 2 </li>
+                <li> Zipcode: 1058HA Amsterdam</li>
+                <li> Tel: 06-52521908</li>
+                <li> Email: cafetvossie@outlook.com</li>
+                <li> Instagram: https://www.instagram.com/explore/locations/252399428/netherlands/amsterdam-netherlands/cafe-t-vossie/</li>
+                <li> Facebook: https://www.facebook.com/Cafetvossie</li>
+            </ul> </h1>
+            </p>
+            <a href="#">Gallery</a>
+            </div>
+            <ul class="social">
+            <li><a href="https://www.facebook.com/Cafetvossie"><img src="./facebook.png"></a></li>
+            <li><a href="https://www.instagram.com/explore/locations/252399428/netherlands/amsterdam-netherlands/cafe-t-vossie/"><img src="./instagram.png"></a></li>
+            </ul>
+        </section>
+        <div class="menu">
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <!-- <li><a href="#">Calendar</a></li> -->            
+            <li><a href="menu.html">Menu</a></li>
+            <!-- <li><a href="#">Blog</a></li> -->
+            <li><a href="about.html">Contact</a></li>
+            </ul>
+        </div>
+      <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+            })
+      </script>
+</body>
+</html>
