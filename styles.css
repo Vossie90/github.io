@@ -222,6 +222,10 @@ header .logo
     {
         font-size: 2em;
     }
+    .text p, ul
+    {
+        font-size: .8em;
+    }
     .menu
         {
         width: 200px;
