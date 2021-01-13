@@ -84,17 +84,14 @@ header .logo
     background: orange;
     mix-blend-mode: overlay;
 }
-.pics img
+.img_gallery img
 {
     position: relative;
     z-index: 15;
-    /* display: inline-flexbox; */
     padding: 20px;
-    object-fit: contain;
-    justify-content: right;
-    align-items: right;
-    width: 500px;
+    width: 33%;
     height: auto;
+    min-width: 500px;
 }
 .text
 {
@@ -118,20 +115,26 @@ header .logo
     line-height: 1em;
     text-transform: uppercase;
 }
-.text p
+.text p, ul
 {
     font-size: 1.1em;
     color: #fff;
     margin: 20px 0;
     font-weight: 400;
-    max-width: 700px;
+    max-width: 550px;
 }
-.text a
+.text ul
+{
+    columns: 2;
+    list-style-type: none;
+}
+.button a
 {
     display: inline-block;
     font-size: 1em;
     background: #e5e5e5;
-    padding: 10px 30px;
+    padding: 10px;
+    text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
@@ -139,11 +142,13 @@ header .logo
     color: #111;
     letter-spacing: 2px;
     transition: 1.5s;
+    width: 150px;
+    white-space: nowrap;
 }
-.text a:hover
+.button a:hover
 {
     letter-spacing: 6px;
-    padding: 10px 14px;
+    /* padding: 10px 14px; */
 }
 .social
 {
