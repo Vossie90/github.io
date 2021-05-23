@@ -81,9 +81,9 @@ header .logo
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
     opacity: .75;
-    /* background-color: #111; */
+     background-color: rgb(233, 222, 222); 
 }
 .overlay
 {
@@ -167,6 +167,53 @@ header .logo
     white-space: nowrap;
 }
 .button a:hover
+{
+    letter-spacing: 6px;
+    /* padding: 10px 14px; */
+}
+
+
+.button b
+{
+    display: inline-block;
+    font-size: 1em;
+    background: #f50303;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #111;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    width: 150px;
+    white-space: nowrap;
+}
+.button b:hover
+{
+    letter-spacing: 6px;
+    /* padding: 10px 14px; */
+}
+
+.button c
+{
+    display: inline-block;
+    font-size: 1em;
+    background: #090246;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    color: rgb(247, 238, 238);
+    letter-spacing: 2px;
+    transition: 1.5s;
+    width: 150px;
+    white-space: nowrap;
+}
+.button c:hover
 {
     letter-spacing: 6px;
     /* padding: 10px 14px; */
