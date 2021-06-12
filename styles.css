@@ -118,6 +118,7 @@ header .logo
 {
     position: relative;
     z-index: 10;
+    color: #e5e5e5;
 }
 
 .text h2
@@ -163,7 +164,7 @@ header .logo
     color: #111;
     letter-spacing: 2px;
     transition: 1.5s;
-    width: 150px;
+    width: 170px;
     white-space: nowrap;
 }
 .button a:hover
