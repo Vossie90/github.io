@@ -17,22 +17,39 @@
             <div class="text">
                  
                 <h3>whitepaper</h3>
-                <p>We will be providing you asap!</p>
+                <p>We will be providing you our whitepaper as soon as possible!
+
+                    any questions? click on contact to see how you can reach us!
+                </p>
                 <div class="button">
-                    <a href="calendar.html">Roadmap</a>
+                    <a href="contact.html">Contact</a>
                 </div>
             </div>
             <ul class="social">
-                <li><a href="https://www.facebook.com"><img src="./facebook.png"></a></li>
-                <li><a href="https://www.instagram.com"><img src="./instagram.png"></a></li>
-                <li><a href="https://www.Reddit.com"><img src="./Reddit.png"></a></li>
-                <li><a href="https://www.instagram.com"><img src="./chart.png"></a></li>
-                <li><a href="https://www.instagram.com"><img src="./telegram.png"></a></li>
-                <li><a href="https://www.pancakeswap.com"><img src="./pancake.png"></a></li>
-                <li><a href="https://www.bscscan.com"><img src="./bscscan.png"></a></li>
+
             </ul>
         </section>
         <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="whitepaper.html">Whitepaper</a></li>
+                <li><a href="calendar.html">Roadmap</a></li>           
+                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="#">Blog</a></li> -->
+            </ul>
+        </div>
+      <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+            })
+      </script>
+</body>
+</html>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
